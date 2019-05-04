@@ -1,8 +1,20 @@
 {
-  "name": "gulp",
+  "name": "gulp-complete",
   "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "clean": "rm -Rf ./dist",
+    "start": "npm run clean && gulp"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "Rodrigo Reis",
+    "email": "br.rodrigoreis@gmail.com"
+  },
   "dependencies": {
     "gulp": "^4.0.1",
     "gulp-autoprefixer": "^6.1.0",
@@ -20,10 +32,8 @@
     "babel-preset-es2015": "^6.24.1",
     "gulp-babel": "^7.0.1"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": ">= 8.11.1"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC"
 }
