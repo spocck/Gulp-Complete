@@ -21,7 +21,7 @@ gulp.task('pug', gulpPug);
 
 function gulpSass(){
     return gulp
-    .src('css/scss/*.scss')
+    .src('')
     .pipe(sass({
         outputStyle: 'compressed'
     }))
@@ -35,7 +35,7 @@ function gulpSass(){
 gulp.task('sass', gulpSass);
 
 function gulpJS(){
-    return gulp.src('js/main/*.js')
+    return gulp.src('')
     .pipe(concat('main.js'))
     .pipe(babel({
         presets: ["es2015"]
@@ -47,7 +47,7 @@ function gulpJS(){
 gulp.task('js', gulpJS)
 
 function gulpImg(){
-    return gulp.src('img/**/*')
+    return gulp.src('')
     .pipe(imagemin())
     .pipe(gulp.dest('dist/img'))
 }
@@ -55,10 +55,10 @@ function gulpImg(){
 gulp.task('imagemin', gulpImg);
 
 function watch(){
-    gulp.watch('css/scss/*.scss', gulpSass);
-    gulp.watch('js/main/*.js', gulpJS)
-    gulp.watch('img/*', gulpImg)
-    gulp.watch('views/**/*.pug', gulpPug)
+    gulp.watch('', gulpSass);
+    gulp.watch('', gulpJS)
+    gulp.watch('', gulpImg)
+    gulp.watch('', gulpPug)
 }
 
 gulp.task('watch', watch)
