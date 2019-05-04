@@ -47,7 +47,7 @@ function gulpJS(){
 gulp.task('js', gulpJS)
 
 function gulpImg(){
-    return gulp.src('img/*')
+    return gulp.src('img/**/*')
     .pipe(imagemin())
     .pipe(gulp.dest('dist/img'))
 }
