@@ -29,7 +29,7 @@ function gulpSass(){
         browsers: ['last 2 versions'],
         cascade: false
     }))
-    .pipe(gulp.dest('css/'))
+    .pipe(gulp.dest('dist/css'))
 }
 
 gulp.task('sass', gulpSass);
@@ -41,7 +41,7 @@ function gulpJS(){
         presets: ["es2015"]
     }))
     .pipe(uglify())
-    .pipe(gulp.dest('js/'))
+    .pipe(gulp.dest('dist/js'))
 }
 
 gulp.task('js', gulpJS)
