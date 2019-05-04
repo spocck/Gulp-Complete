@@ -14,4 +14,4 @@ Gulp Completo, para qualquer aplicação.
 -Compila ES6 para ES5 e minifica.
 
 
--Compila Scss para CSS, adiciona prefixos no CSS e minifica.
+-Compila Scss para CSS, adiciona prefixos e minifica.
