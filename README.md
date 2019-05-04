@@ -8,7 +8,7 @@ Gulp Completo, para qualquer aplicação.
 -Minifica imagens
 
 
--Compila Pug para Html
+-Compila Pug para HTML
 
 
 -Compila ES6 para ES5 e minifica.
