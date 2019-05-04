@@ -1,7 +1,10 @@
 # Gulp-Complete
 Gulp Completo, para qualquer aplicação.
 
-#Especificações: 
+## Especificações: 
+
+
+
 -Minifica imagens
 
 
