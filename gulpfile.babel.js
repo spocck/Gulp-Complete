@@ -10,7 +10,7 @@ import pug from "gulp-pug";
 
 function gulpPug(){
     return gulp
-    .src('views/*.pug')
+    .src('')
     .pipe(pug({
         pretty: true
     }))
