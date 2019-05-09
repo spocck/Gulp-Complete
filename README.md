@@ -5,8 +5,6 @@ Gulp Completo, para qualquer aplicação.
 
 
 
--Minifica imagens
-
 
 -Compila Pug para HTML
 
