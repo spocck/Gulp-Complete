@@ -1,15 +1,15 @@
 # Gulp-Complete
-Gulp Completo, para qualquer aplicação.
+Gulp Complete, for any application.
 
-## Especificações
-
-
+## Specifications
 
 
--Compila Pug para HTML
 
 
--Compila ES6 para ES5 e minifica.
+-Pug to HTML
 
 
--Compila Sass para CSS, adiciona prefixos e minifica.
+-Compiles ES6 to ES5 and minifies.
+
+
+-Compiles Sass to CSS, adds prefixes and minifies.
